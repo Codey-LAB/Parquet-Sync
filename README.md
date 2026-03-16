@@ -31,4 +31,7 @@ The repository follows a strict **Raw-to-Edit-to-Export** flow to ensure data in
 ---
 *Status: Stored for later. No code touched yet, just the blueprint.*
 
-> code crafted by Gemini (not tested) from a human idea after sickness
+> code crafted by Gemini from a human idea after sickness
+
+### Code test
+Tested first time. 16.03.2026 - reult, geminie 3 Pro cant code! Will fix it self! But Idea was cool :D 
