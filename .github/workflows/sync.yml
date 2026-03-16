@@ -1,31 +1,39 @@
-name: Parquet Data Hub Sync
+name: "Data Operations Hub"
+
 on:
-  push:
-    paths:
-      - 'raw/**'
-      - 'editable/**'
+  workflow_dispatch:
+    inputs:
+      action_type:
+        description: 'Richtung wählen:'
+        required: true
+        default: 'to_editable'
+        type: choice
+        options:
+          - to_editable
+          - to_export
 
 jobs:
-  build:
+  run_op:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       
-      - name: Set up Python
+      - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
 
-      - name: Install dependencies
+      - name: Install Polars
         run: pip install polars pyarrow
 
-      - name: Run Sync Script
-        run: python scripts/sync.py
+      - name: Execute Sync
+        # Hier wird jetzt wieder die richtige Datei aufgerufen
+        run: python scripts/sync.py ${{ github.event.inputs.action_type }}
 
-      - name: Commit and Push
+      - name: Commit Changes
         run: |
           git config --local user.email "hub-action@github.com"
           git config --local user.name "DataHub Bot"
           git add editable/ exports/
-          git commit -m "Automated Sync: Updated Editables/Exports [skip ci]" || echo "No changes to commit"
+          git commit -m "Manual Sync: ${{ github.event.inputs.action_type }}" || echo "Nothing to commit"
           git push
