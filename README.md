@@ -43,7 +43,7 @@ The system enforces a strict **Raw -> Editable -> Export** flow to protect the i
 
 ## License
 
-This project is licensed under the ** GNU AFFERO GENERAL PUBLIC LICENSE Version 3*.
+This project is licensed under the **MIT*.
 
 ---
 
