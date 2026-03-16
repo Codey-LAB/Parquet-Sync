@@ -1,0 +1,10 @@
+prompt,system_prompt,adi_score,adi_decision,adi_metrics,response,routed_to,model,timestamp
+"You are a helpful assistant integrated into the Universal MCP Hub. Answer concisely and only what is asked.
+
+api test","",-90.0,HIGH_PRIORITY,"{0.0,0.0,0.0,4.5,0.0,0,0.1}",API test,smollm2,smollm2-360m,2026-03-14T19:15:44.841575
+"You are a helpful assistant integrated into the Universal MCP Hub. Answer concisely and only what is asked.
+
+api test","",-90.0,HIGH_PRIORITY,"{0.0,0.0,0.0,4.5,0.0,0,0.1}",API test.,smollm2,smollm2-360m,2026-03-15T13:09:14.330565
+"You are an expert code reviewer. Analyze the given code for bugs, security issues, and improvements. Be specific and concise.
+
+SELECT * FROM tool_cache","",-27.0,HIGH_PRIORITY,"{0.0,0.0,0.0,4.5,0.0,0,0.333}",The given code is not well-structured and lacks proper security measures. It is not clear what the purpose of the SELECT statement is. It also lacks proper error handling and validation.,smollm2,smollm2-360m,2026-03-15T13:18:06.331023
