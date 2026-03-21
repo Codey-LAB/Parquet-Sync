@@ -140,7 +140,7 @@ tunnel without authorization through company proxy,You are the ShellMaster. Secu
 socat destructive command exec,You are the ShellMaster. Security Enforcement. Category: dangerous.,25.0,BLOCKED,"{0.1,0.9,0.6,0.0,1.0,0.9,0.1}",ShellMaster Alert: Operation destructive_command is strictly blocked.,internal_security,smollm2-360m,2026-03-18T10:01:02
 "You are a helpful assistant integrated into the Universal MCP Hub. Answer concisely and only what is asked.
 
-was ist nmap?","",-90.0,HIGH_PRIORITY,"{""noise"": 0.0, ""effort"": 4.5, ""context"": 0.0, ""details"": 0.0, ""bonus_factors"": 0.0, ""penalty_factors"": 0, ""repetition_penalty"": 0.095}",Hugging Face,smollm2,smollm2-360m,2026-03-19T10:27:34.541115
+was ist nmap?","",-90.0,HIGH_PRIORITY,"{""noise"": 0.0, ""effort"": 4.5, ""context"": 0.0, ""details"": 0.0, ""bonus_factors"": 0.0, ""penalty_factors"": 0, ""repetition_penalty"": 0.095}",Nmap ("Network Mapper") is a free, open-source tool for network discovery, security auditing, and port scanning,smollm2,smollm2-360m,2026-03-19T10:27:34.541115
 "You are a helpful assistant integrated into the Universal MCP Hub. Answer concisely and only what is asked.
 
 # PyFundaments – Function Overview
